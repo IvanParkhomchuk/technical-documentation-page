@@ -1,0 +1,99 @@
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+#navbar {
+  position: fixed;
+  border-color: black;
+  border-right: 2px solid;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.nav-link {
+  font-size: 21px;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  color: black;
+  transition: .2s;
+}
+
+.nav-link:hover {
+  transform: translateY(-3px);
+}
+
+.nav-link-cont {
+  border-top: 1px solid;
+  list-style-type: none;
+  transition: .2s;
+}
+
+.nav-link-cont:hover {
+  background-color: #D6D6D6;
+}
+
+#main-doc {
+  margin-left: 340px;
+}
+
+/* .main-section {
+
+}
+
+#Introduction {
+
+}
+
+#What_you_should_already_know {
+
+}
+
+#JavaScript_and_Java {
+
+}
+
+#Hello_world {
+
+}
+
+#Variables {
+
+}
+
+#Declaring_variables {
+
+}
+
+#Variable_scope {
+
+}
+
+#Global_variables {
+  
+}
+
+#Constants {
+
+}
+
+#Data_types {
+
+}
+
+#if_else_statement {
+
+}
+
+#while_satement {
+
+}
+
+#Function_declarations {
+
+}
+
+#Reference {
+  
+} */
