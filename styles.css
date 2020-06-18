@@ -1,3 +1,8 @@
+/* :root {
+  box-sizing: border-box;
+  font-size: calc(0.5vw + 0.5em);
+} */
+
 body {
   font-family: "Open Sans", Arial, sans-serif;
 }
@@ -36,6 +41,35 @@ body {
 
 #main-doc {
   margin-left: 340px;
+}
+
+@media (max-width: 460px) {
+  #main-doc {
+
+  }
+}
+
+.codediv {
+  background-color: #D6D6D6;
+  margin-left: 10px;
+  padding: 7px;
+  border: 1px solid black;
+}
+
+p {
+  margin-top: 10px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+main ul li {
+  margin-left: 50px;
+}
+
+#second-main-ul {
+  margin-left: 30px;
 }
 
 /* .main-section {
